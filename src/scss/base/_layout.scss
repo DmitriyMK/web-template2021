@@ -1,0 +1,42 @@
+@import "./helpers/_vars";
+
+.wrapper {
+	position: relative;
+	max-width: 2080px;
+    margin: 0 auto;
+    padding: 0 40px;
+
+	// @media (max-width: $laptop) {
+	// 	max-width: 1024px;
+	// }
+
+    @media (max-width: $tablet) {
+        max-width: 1890px;
+    }
+
+	@media (max-width: $tablet) {
+		max-width: 980px;
+		padding: 0 30px;
+	}
+
+	@media (max-width: $note) {
+		max-width: 725px;
+	}
+
+	@media (max-width: $phone-xl) {
+		max-width: 100%;
+		padding: 0 15px;
+	}
+}
+
+
+.mainwrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1 1 auto;
+    min-height: 1px;
+}

@@ -1,0 +1,40 @@
+/* HELPERS */
+@import "./helpers/_vars";
+
+
+
+//  MAIN STYLE
+// @import "./lib/locomotive";
+
+@import "./sections/index";
+@import "./helpers/hacks";
+
+// object-fit: cover;
+// object-position: 50% 20%;
+// font-family: 'object-fit: cover; object-position: 50% 20%;';
+
+.section__title {
+
+}
+
+@media (max-width: $desktop-xl) {
+}
+
+@media (max-width: $desktop) {
+}
+
+@media (max-width: $laptop) {
+}
+
+@media (max-width: $tablet) {
+}
+
+@media (max-width: $note) {
+}
+
+@media (max-width: $phone-xl) {
+}
+
+@media (max-width: $phone) {
+}
+

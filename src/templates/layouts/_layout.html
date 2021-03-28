@@ -1,0 +1,52 @@
+{% import "partials/_mixins.html" as mixins %}
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>{{ webTitle }}</title>
+    <meta name="description" content="{{ webDescription }}">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="msapplication-TileColor" content="#181c25">
+    <meta name="theme-color" content="#181c25">
+    <link rel="icon" href="favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="stylesheet" media="all" href="css/header.css"/>
+    <script>document.documentElement.className="js"</script>
+    {% include "../partials/_media-tags.html" %}
+  </head>
+  <body>
+
+    <!-- BEGIN content -->
+    <div class="mainwrap">
+      {% block content %}{% endblock %}
+    </div>
+    <!-- END content -->
+
+    <!-- BEGIN styles -->
+    <link rel="stylesheet" media="all" href="css/main.css"/>
+    <!-- END styles -->
+
+    <!-- BEGIN scripts -->
+    <script src="js/app.js"></script>
+    <script src="./lib/svgxuse.min.js"></script>
+    <!-- <script>
+      var isIE = false;
+      var ua = window.navigator.userAgent;
+      var old_ie = ua.indexOf('MSIE ');
+      var new_ie = ua.indexOf('Trident/');
+
+      if ((old_ie > -1) || (new_ie > -1)) {
+        isIE = true;
+      }
+
+      if (isIE) {
+        document.body.classList.remove('loading');
+      }
+    </script> -->
+    <!-- END scripts -->
+
+  </body>
+</html>

@@ -1,0 +1,36 @@
+$ff: "Roboto", serif;
+$fs: 18px;
+
+
+$cursor-color: tomato;
+$border-color: #12e09b;
+$text-stroke: tomato;
+
+$red: tomato;
+$grey-dark: #666;
+
+
+$bg-color: #000;
+$secondary-color: #bc956a;
+
+$transition-standart: .3s cubic-bezier(.455, .03, .427, .964);
+
+
+// Breakpoints for each query
+$phone: 375px;
+$phone-xl: 479px;
+$note: 767px;
+$tablet: 1024px;
+$tablet-min: 1024.98px;
+$laptop: 1366px;
+$desktop: 1680px;
+$desktop-xl: 1920px;
+
+
+// $phone: "only screen and (max-width: 375px)";
+// $phone-xl: "only screen and (max-width: 479px)";
+// $note: "only screen and (max-width: 767px)";
+// $tablet: "only screen and (max-width: 1024px)";
+// $laptop: "only screen and (max-width: 1366px)";
+// $desktop: "only screen and (max-width: 1680px)";
+// $desktop-xl: "only screen and (max-width: 1920px)";

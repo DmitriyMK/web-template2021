@@ -1,0 +1,21 @@
+/* nanum-myeongjo-regular - latin */
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(''),
+        url('../fonts/nanum-myeongjo-v15-latin-regular.woff2') format('woff2'),
+        url('../fonts/nanum-myeongjo-v15-latin-regular.woff') format('woff');
+}
+
+/* nanum-myeongjo-700 - latin */
+@font-face {
+    font-family: 'Nanum Myeongjo';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local(''),
+        url('../fonts/nanum-myeongjo-v15-latin-700.woff2') format('woff2'),
+        url('../fonts/nanum-myeongjo-v15-latin-700.woff') format('woff');
+}
