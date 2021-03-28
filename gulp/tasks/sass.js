@@ -30,7 +30,7 @@ const processors = [
   autoprefixer({
     overrideBrowserslist: [
       'last 4 versions',
-      '>0.1%'
+      '>1%'
     ],
     cascade: false,
     grid: 'autoplace'
