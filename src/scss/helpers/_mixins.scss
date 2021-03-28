@@ -122,3 +122,46 @@
 		}
 	}
 }
+
+
+
+// Color ratio
+// from https://jonnykates.medium.com/automating-colour-contrast-ratios-with-sass-e201f3b52797
+// See https://www.w3.org/TR/AERT/#color-contrast for original algorithm used for this function
+@function colour-difference($foreground, $background) {
+    $r: (max(red($foreground), red($background))) - (min(red($foreground), red($background)));
+    $g: (max(green($foreground), green($background))) - (min(green($foreground), green($background)));
+    $b: (max(blue($foreground), blue($background))) - (min(blue($foreground), blue($background)));
+    $sum-rgb: $r + $g + $b;
+
+    @if $sum-rgb < 500 {
+        @return "false";
+    }
+
+    @else {
+        @return "true";
+    }
+}
+
+@mixin text-contrast($n) {
+    $color-brightness: round((red($n) * 299) + (green($n) * 587) + (blue($n) * 114) / 1000);
+    $light-color: round((red(#ffffff) * 299) + (green(#ffffff) * 587) + (blue(#ffffff) * 114) / 1000);
+
+    @if abs($color-brightness) < ($light-color/2) {
+        color: white;
+    }
+
+    @else {
+        color: black;
+    }
+}
+
+
+// Example for use
+// $button-background-colour: #fff;
+
+// button {
+    // background-color: $button-background-colour;
+    // @include text-contrast($button-background-colour);
+// }
+

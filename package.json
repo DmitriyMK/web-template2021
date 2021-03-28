@@ -75,6 +75,7 @@
   "dependencies": {
     "@babel/runtime": "^7.13.10",
     "@barba/core": "^2.9.7",
+    "browserlist": "^1.0.1",
     "gsap": "^3.6.0",
     "gulp-avif": "^0.1.0",
     "gulp-imagemin": "^7.1.0",

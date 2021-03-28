@@ -1,9 +1,0 @@
-defaults
-Chrome > 64,
-Firefox > 58,
-iOS > 11,
-Opera >= 50',
-Safari >= 10,
-ChromeAndroid >= 64,
-FirefoxAndroid >= 51,
-IE 11

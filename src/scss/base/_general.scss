@@ -18,7 +18,6 @@ body {
 	line-height: 1.2;
 	text-rendering: optimizeSpeed;
 	word-wrap: break-word;
-
 	overflow-wrap: break-word;
 	text-size-adjust: none;
 	-webkit-overflow-scrolling: touch;
@@ -61,10 +60,10 @@ body {
 //     contain-intrinsic-size: 1px 1000px; /* this is the guess at the height of the content, and also saying width doesn't matter */
 // }
 
-img {
-    user-select: none !important;
-    pointer-events: none !important;
-}
+// img {
+//     user-select: none !important;
+//     pointer-events: none !important;
+// }
 
 // main img {
     /* Only render when in viewport */
