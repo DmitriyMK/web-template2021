@@ -29,10 +29,11 @@ const sortMediaQueries = (a, b) => {
 const processors = [
   autoprefixer({
     overrideBrowserslist: [
-      'last 4 versions', 
+      'last 4 versions',
       '>0.1%'
     ],
-    cascade: false
+    cascade: false,
+    grid: 'autoplace'
   }),
   // require('lost'),
   // mqpacker({
