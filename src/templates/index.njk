@@ -21,11 +21,12 @@ title: Started pages
   {# {{mixins.icon('facebook')}} #}
 
   {# data usage example #}
-  {# {% import "data/data.html" as tests %}
+  {% import "data/data.html" as tests %}
 
   {% for test in tests.list %}
-    <li>{{test.title}}</li>
-  {% endfor %} #}
+    <li>{{test.title}}{{test.user}}</li>
+  {% endfor %}
+
   {# end of example #}
 
   {# partial example #}

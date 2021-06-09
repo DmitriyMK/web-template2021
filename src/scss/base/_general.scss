@@ -7,9 +7,6 @@ body {
 	width: 100vw;
 	min-height: 100vh;
 	margin: 0;
-	padding-right: 0 !important;
-	overflow-x: hidden;
-	overflow-y: auto;
 	background: $bg-color;
 	color: #fff;
 	font-family: $ff;
@@ -24,7 +21,6 @@ body {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	scroll-behavior: smooth;
 
 	// Firefox Scroll
 	scrollbar-width: thin;          /* "auto" or "thin"  */

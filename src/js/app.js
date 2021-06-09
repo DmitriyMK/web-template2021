@@ -5,6 +5,7 @@
 
 
 document.addEventListener("DOMContentLoaded", () => {
+  console.log('hello');
   // const tl = gsap.timeline({defaults:{opacity:1, ease:"back"}});
 
   // Promise.all([preloadImages(".preload__img")]).then(() => {
