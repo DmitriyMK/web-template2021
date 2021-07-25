@@ -1,3 +1,20 @@
 {% macro icon(i) %}
 <svg class="icon icon-{{i}}"><use xlink:href="img/sprite.svg#icon-{{i}}"></use></svg>
 {% endmacro %}
+
+
+
+{% macro picture(photo, className) %}
+<picture>
+  <source type="image/webp" srcset="./img/{{photo}}.webp">
+  <img src="./img/{{photo}}.jpg" alt='{{photo}}' loading="lazy" />
+</picture>
+{% endmacro %}
+
+
+{% macro picture2(book, className) %}
+<picture>
+  <source type="image/webp" srcset="./img/{{book}}.webp">
+  <img src="./img/{{book}}.png" alt='{{book}}' loading="lazy" />
+</picture>
+{% endmacro %}

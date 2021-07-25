@@ -27,14 +27,7 @@ const sortMediaQueries = (a, b) => {
 }
 
 const processors = [
-  autoprefixer({
-    overrideBrowserslist: [
-      'last 4 versions',
-      '>1%'
-    ],
-    cascade: false,
-    grid: 'autoplace'
-  }),
+  autoprefixer(),
   // require('lost'),
   // mqpacker({
   //   sort: sortMediaQueries

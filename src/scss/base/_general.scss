@@ -47,6 +47,12 @@ body {
 	color: #000;
 }
 
+.body-freeze {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
 // .mainwrap {
 //     scroll-snap-type: y mandatory;
 // }
