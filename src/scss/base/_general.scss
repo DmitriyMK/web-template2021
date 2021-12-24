@@ -42,6 +42,11 @@ body {
 	}
 }
 
+main {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 *::selection {
 	background-color: #fafafa;
 	color: #000;

@@ -2,10 +2,16 @@
 // import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 // import Splitting from "splitting";
 // import { preloadImages } from './lib/utils';
+import { accButtons } from './lib/accordeon';
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  console.log('hello');
+
+
+
+
+
+
   // const tl = gsap.timeline({defaults:{opacity:1, ease:"back"}});
 
   // Promise.all([preloadImages(".preload__img")]).then(() => {
