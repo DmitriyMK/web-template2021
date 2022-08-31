@@ -98,6 +98,10 @@ address {
 	font-style: normal;
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
 /* Add the correct font weight in Chrome, Edge, and Safari */
 b,
 strong {

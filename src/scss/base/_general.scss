@@ -3,19 +3,12 @@
 @import "./helpers/_mixins";
 
 body {
-	position: relative;
-	width: 100vw;
-	min-height: 100vh;
-	margin: 0;
 	background: $bg-color;
 	color: #fff;
 	font-family: $ff;
 	font-size: $fs;
 	font-weight: 400;
 	line-height: 1.2;
-	text-rendering: optimizeSpeed;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
 	text-size-adjust: none;
 	-webkit-overflow-scrolling: touch;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
