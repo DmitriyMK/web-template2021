@@ -7,8 +7,8 @@ body {
 	color: #fff;
 	font-family: $ff;
 	font-size: $fs;
-	font-weight: 400;
-	line-height: 1.2;
+	font-weight: $fw;
+	line-height: $lh;
 	text-size-adjust: none;
 	-webkit-overflow-scrolling: touch;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -51,9 +51,6 @@ main {
     width: 100%;
 }
 
-// .mainwrap {
-//     scroll-snap-type: y mandatory;
-// }
 
 // section {
 //     content-visibility: auto; /* this is the thing that delays painting */

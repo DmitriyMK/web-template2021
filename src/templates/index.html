@@ -13,20 +13,21 @@ title: Started pages
     <div class="wrapper">
 
     </div>
+
+    {# variable example #}
+    {# <h1>312{{title}}1</h1> #}
+
+    {# mixin example #}
+    {# {{mixins.icon('facebook')}} #}
+
+    {# data usage example #}
+    {% import "data/data.html" as tests %}
+
+    {% for test in tests.list %}
+      <li>{{test.title}}{{test.user}}</li>
+    {% endfor %}
   </main>
 
-  {# variable example #}
-  {# <h1>312{{title}}1</h1> #}
-
-  {# mixin example #}
-  {# {{mixins.icon('facebook')}} #}
-
-  {# data usage example #}
-  {% import "data/data.html" as tests %}
-
-  {% for test in tests.list %}
-    <li>{{test.title}}{{test.user}}</li>
-  {% endfor %}
 
   {# end of example #}
 
