@@ -51,22 +51,10 @@ main {
     width: 100%;
 }
 
-
-// section {
-//     content-visibility: auto; /* this is the thing that delays painting */
-//     contain-intrinsic-size: 1px 1000px; /* this is the guess at the height of the content, and also saying width doesn't matter */
-// }
-
-// img {
-//     user-select: none !important;
-//     pointer-events: none !important;
-// }
-
 // main img {
     /* Only render when in viewport */
     // content-visibility: auto;
 // }
-
 
 // .b-lazy {
 // 	transition: opacity .5s linear;
